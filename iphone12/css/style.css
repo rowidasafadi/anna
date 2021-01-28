@@ -1,0 +1,680 @@
+.content{
+	float:left;
+	overflow:hidden;	
+	margin-left:250px;
+	margin-right:150px;
+}
+
+.content .ccontent{
+	background-color:white;	
+	float:left;
+	text-align:center;
+	width:230px;
+	overflow:hidden;/*3ashan ma e6l3 ashe 5araj aldiv lo 5aerna bl7ajam */
+}
+
+.content .ccontent .c3 a{
+	margin-top:10px; /* azaha ben alkalam o alsora*/
+}
+
+.content .ccontent .alink{
+    border-right:0.5px solid #dedede;
+	margin-top:50px;
+    margin-bottom:50px;
+}
+/*
+.content .ccontent .alink4{
+    border-right:2px solid white;
+	margin-top:50px;
+    margin-bottom:50px;
+}
+*/
+
+.content .ccontent .alink  a{
+	text-decoration:none;/*l7df al5a6 mn alrab6 e3ni ma fe da3i t7t kalma akon fe 5a6 */
+}
+.content .ccontent img{
+	margin-right: 5px;
+	height:50px;
+	width:50px;	
+}	
+/*
+.header .nav .navcontent{
+	background-color:rgba(0, 0, 0, 0.7);
+	width:80%;
+	position:fixed;/*tatbet alheader*//*
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	padding-left:180px;
+	padding-right:200px;	
+}*/
+ .navcontent img{
+	height:30px;
+	width:30px;
+}
+/* 3ashan almoq3 nfso ma akon fe fara3'at 3ala alyamen o alshmal*/
+*{
+	padding:0;
+	margin:0;
+}
+
+.header{
+  background-image:url('../img/appleb.jpg');
+  overflow:hidden;
+  background-size:100%100%;
+  background-position:center center;
+  height:90vh;
+}
+
+.nav{
+	position:fixed;
+	overflow:hidden;
+	float:left;
+	width:100%;	
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nav .navcontent ul{
+	height:65px;
+	padding-left:30px;
+	list-style:none;
+	list-style-type:none;
+	overflow:hidden;	
+}
+
+.nav .navcontent ul li{
+	padding-left:120px;
+	padding-bottom:15px;
+	padding-top:15px;
+	float:left;
+}
+
+.nav .navcontent ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size:25px; 
+} 
+
+hr{
+	width:100%;
+	margin-left:auto;/* alashi eje blnos al auto*/
+	margin-right:auto;
+	border: 0.5px solid;
+	border-color:#dedede;
+}
+
+span{
+	/*
+	font-family: 'Cairo', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:400;
+    color:black;
+}
+	
+.navcontent a{
+	/*
+	font-family:'Titillium Web', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+	font-weight:400;
+}
+
+
+.header h1 {
+	margin-left:290px;
+	padding:200px;
+	text-align:center; 
+	font-size:100px;
+	color:white;
+	background-color:transparent;
+	width:100px;
+	height:100px;  
+	/*
+	font-family: 'Do Hyeon', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+	margin-top: 140px;
+}
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.about{
+	margin-top:50px;
+	background-color:#f4f4f4;
+	overflow:hidden; 
+}
+
+.about .iphone-about{
+    float: center ;
+    margin-top:40px;
+}
+.about .iphone-about h2{
+    margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif; 
+	*/
+	font-family: 'Amiri', serif;
+    text-align: center;
+}
+
+.about .iphone-about p{
+    margin-bottom:20px;
+    font-size:20px;
+	text-align: right;
+	/*
+	font-style: italic;
+	font-family: 'Almarai', sans-serif; 
+	*/
+	font-family: 'Amiri', serif;
+}
+
+.about .about-image{
+    width: 80%;
+}
+
+.about .about-image img{
+    width: 100%; 
+    margin-left:13%;/*aza7at alsora mn alyasar bmqdar 13% */
+}
+
+.location,.ipad {
+    margin-top:50px;
+    background-color:#f4f4f4;
+    overflow:hidden;
+}
+
+.location .location-content  {
+    float: right;
+    width:60%;
+    margin-top:40px;
+}
+
+.location .location-content h2 , .type-ipad h2{
+    margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif; 
+	*/
+	font-family: 'Amiri', serif;
+}
+
+.location .location-content p  {
+    margin-bottom:20px;
+    font-size:20px;
+    width:100%;
+    text-align: right;
+    /*
+    margin: 0px 0px 0px 30px;
+   font-style: italic;
+   font-family: 'Almarai', sans-serif;
+   */
+   font-family: 'Amiri', serif;
+   font-weight: bold; 
+}
+
+.location .location-image  {
+    float: right;
+    width: 40%;
+}
+
+.location .location-image img {
+    width:100%;
+}
+
+.iphone{
+    margin-top: 50px;
+    text-align: center;
+    background-color:#f4f4f4;
+}
+
+.iphone h2{
+    margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: center;
+    display: block;
+    /*
+    font-size: 1.5em;
+    */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.iphone p{
+    margin-bottom:20px;
+	font-size:20px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.iphone .iphone-types .iphone-type{
+    float: left;
+    width: 32%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.iphone .iphone-types .iphone-type img{
+    width: 100%;
+    height: 500px;
+}
+
+.iphone .iphone-types .iphone-type h3{
+	margin-bottom:20px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    /*
+    font-size: 1.17em;
+    */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.iphone .iphone-types .iphone-type p{
+    margin-bottom:20px;
+    font-size:20px;
+	width:100%;
+	/*
+	font-style: italic;
+	*/
+	text-align: right;
+	/*
+	font-family: 'Almarai', sans-serif;  
+	*/
+	font-family: 'Amiri', serif;
+    display: block;
+    margin-block-start: 1em;/*bo3d alfaqara 3n al3noan */
+    margin-block-end: 1em;/*nehayat alsaf7a aza bde a7rakha bkbr 3000 matalan bser alshare6 et7rak lfoq o ta7at */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;/*b7arak alshare6 alasfal ll yamen o alyasar aza bakabr alraqam*/
+}
+
+h2{
+    background-color: darkgray;
+    font-size:25px;
+    display: inline-block;
+	margin-left: 37%;
+	margin-bottom: 3px;
+	padding: 2px 65px;
+	font-family: 'Amiri', serif;
+	font-weight: bold;
+}
+
+h3{
+    background-color: darkgray;
+    padding: 5px ;
+	margin-right:12px ;
+	font-family: 'Amiri', serif;
+	font-weight: bold;
+}
+
+p{
+	font-size:20px;
+	padding: 15px 10px;
+	font-family: 'Amiri', serif;
+}
+
+.charge {
+    text-align: right;    
+}
+
+div  .charge{ 
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px 2px;
+    margin: 2px 0px;
+}
+  
+.date{
+    margin-top: 50px;
+	text-align: center;
+	background-color:#f4f4f4;
+	
+
+	
+}
+
+.date .iphone-release h2{
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif; 
+	*/
+	/*
+	font-family: 'Amiri', serif;
+	font-size: 25px;
+	*/
+	background-color: darkgray;
+    font-size:20px;
+    display: inline-block;
+	margin-right: 37%;
+	margin-bottom: 3px;
+	padding: 2px 65px;
+	font-family: 'Amiri', serif;
+	font-weight: bold;
+	
+	
+	
+}
+
+.date .iphone-release p{
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.date .iphone-release img{
+    width: 100%;
+}
+
+.iphone-image img{
+	width :60%;
+	height: 30%;
+}
+/*
+.size{
+    width: 60%;
+	padding: 25px;
+	float: right;
+}
+*/
+.fa{
+	margin: 20px;
+	margin-left:250px;
+	
+	
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-google-plus-square{
+    color: red;
+
+}
+.fa-instagram{
+    color:yellow ;
+}
+.socialwrapper{
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.footer{
+	width: 100%;
+}
+.iphones{
+	
+	margin-top: 80px;
+	
+    text-align: center;
+    background-color:#f4f4f4;
+}
+.iphones h2{
+	margin-bottom:20px;
+	font-size:25px;
+	font-family: 'Amiri', serif;
+    text-align: center;
+    display: block;
+    /*
+    font-size: 1.5em;
+    */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.iphones h3{
+	margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: right;
+    display: block;
+    /*
+    font-size: 1.5em;
+    */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.iphones p{
+	margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: right;
+    display: block;
+    /*
+    font-size: 1.5em;
+    */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.iphones .type-iphone ul {
+	margin-bottom:20px;
+	font-size:25px;
+	/*
+    font-style: italic;
+	font-family: 'Almarai', sans-serif;
+	*/
+	font-family: 'Amiri', serif;
+    text-align: right;
+    display: block;
+    /*
+    font-size: 1.5em;
+    */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 60px;
+	
+    
+
+}
+
+.iphones .type-iphone img{
+    margin-left:20%;
+}
+
+
+ .ipad h2{
+	margin-bottom:20px;
+	font-size:25px;
+	font-family: 'Amiri', serif;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+    font-weight: bold;
+}
+ .ipad h3{
+	margin-bottom:20px;
+	font-size:25px;
+	font-family: 'Amiri', serif;
+    text-align: right;
+	font-weight: bold;
+	margin-top:20px;
+	
+}
+ .ipad p{
+	margin-bottom:20px;
+	font-size:25px;
+	font-family: 'Amiri', serif;
+    text-align: right;
+
+    
+}
+ .ipad .type-ipad ul {
+	margin-top:20px;
+	margin-bottom:50px;
+	font-size:25px;
+	font-family: 'Amiri', serif;
+	text-align: right;
+	
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    float: right;
+}
+
+.ipad .ipad-image  {
+   
+	width: 50%;
+	
+}
+
+  .ipad .type-ipad .ipad-image img{
+
+	width: 60%;
+	display: inline;
+
+}
+.watch{overflow:hidden; text-align:center;font-size:'Amiri', serif; font-size: 40px;
+	
+}
+
+
+.watch h1{font-size:25px;margin-top:100px;overflow:hidden;}
+.watchestypes{overflow:hidden;float:left;text-align:center;
+	width:1510px;height:600px;}
+
+
+.watchcontainer{margin:auto;width:100%;
+}
+
+
+.watchestypes .firsttype{margin-top:100px; text-align:center;float:left;margin-left:100px;
+	
+width:25%;background-color:white;height:400px;border-right:0.5px solid #dedede;
+}
+.watchestypes .secondtype { margin-top:100px;text-align:center;float:left;
+	
+width:25%;background-color:white;height:400px;border-right:0.5px solid #dedede;
+}
+.watchestypes .secondtype img{height:300px;}
+
+
+
+.watchestypes .thirdtype {margin-top:100px; text-align:center;float:left;
+	
+width:25%;background-color:white;height:400px;margin-right:00px;
+}
+.watchestypes .thirdtype img{height:300px;}
+
+
+.uses{width:1150px;height:500px;overflow:hidden;text-align:center;margin-left:100px;}
+
+.uses .watchesimgsges{ 
+	width:50%;float:left;
+}
+.uses .watchesimgsges img{width:100%;height:500px;}
+.uses .useslist{ height:500px;	width:50%;float:left;background-color:gray;
+
+}
+/*
+ .navv  .navvcontent{padding-left:200px;}
+
+ .navv{
+	position:fixed;
+	overflow:hidden;
+	float:left;
+	width:100%;	
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+ .navv .navvcontent ul{
+	height:65px;
+	padding-left:30px;
+	list-style-type:none;
+	overflow:hidden;	
+}
+
+ .navv .navvcontent ul li{
+	padding-left:120px;
+	padding-bottom:15px;
+	padding-top:15px;
+	float:left;
+}
+
+ .navv .navvcontent ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size:25px; 
+} 
+.containerwatch{margin:auto;padding-left:100px;padding-right:100px;
+	
+	
+}
+.navvcontent a{
+	/*
+	font-family:'Titillium Web', sans-serif;
+	*/
+	/*
+	font-family: 'Amiri', serif;
+	font-weight:400;
+}
+.navvcontent img{
+	height:30px;
+	width:30px;
+}
+*/
+
+
+
+
